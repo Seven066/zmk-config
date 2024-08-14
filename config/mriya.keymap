@@ -27,7 +27,7 @@
 &kp LEFT_WIN  &kp GRAVE         &kp Q   &kp W         &kp E      &kp R                  &kp T        &kp Y        &kp U           &kp I      &kp O         &kp P     &kp LBKT       &mt RWIN RBKT
               &kp LEFT_ALT      &kp A   &kp S         &kp D      &kp F                  &kp G        &kp H        &kp J           &kp K      &kp L         &kp SEMI  &mt RCTRL SQT
               &kp LEFT_CONTROL  &kp Z   &kp X         &kp C      &kp V                  &kp B        &kp N        &kp M           &kp COMMA  &kp DOT       &kp FSLH  &mt RALT BSLH
-                                        &kp LEFT_WIN  &lt 2 TAB  &mt RIGHT_SHIFT SPACE  &lt 1 RET    &lt 1 ENTER  &mt RSHFT BSPC  &lt 2 DEL  &kp CAPSLOCK
+                                        &kp LEFT_WIN  &lt 1 TAB  &mt RIGHT_SHIFT SPACE  &lt 2 RET    &lt 2 ENTER  &mt RSHFT BSPC  &lt 1 DEL  &kp CAPSLOCK
             >;
         };
 
@@ -63,11 +63,11 @@
 
         toggle_layer {
             bindings = <
-       &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&to 0  &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &to 0
-       &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-       &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &to 4  &to 3  &to 2  &to 1    &to 1  &to 2  &to 3  &to 4
+       &none  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &none
+&to 0  &none  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &none  &to 0
+       &none  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &none
+       &none  &none  &none  &none   &none   &none     &none   &none   &none   &none  &none  &none
+                     &to 4  &tog 3  &tog 2  &tog 1    &tog 1  &tog 2  &tog 3  &to 4
             >;
         };
     };
