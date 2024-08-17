@@ -24,7 +24,7 @@
         default_layer {
             bindings = <
               &kp ESC           &kp N1  &kp N2        &kp N3     &kp N4                 &kp N5       &kp N6       &kp N7          &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp LEFT_WIN  &kp GRAVE         &kp Q   &kp W         &kp E      &kp R                  &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &kp LBKT       &mt C_MENU RBKT
+&kp LEFT_WIN  &kp GRAVE         &kp Q   &kp W         &kp E      &kp R                  &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &kp LBKT       &mt K_MENU RBKT
               &kp LEFT_ALT      &kp A   &kp S         &kp D      &kp F                  &kp G        &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
               &kp LEFT_CONTROL  &kp Z   &kp X         &kp C      &kp V                  &kp B        &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
                                         &kp LEFT_WIN  &lt 1 TAB  &mt RIGHT_SHIFT SPACE  &lt 2 RET    &lt 2 ENTER  &mt RSHFT BSPC  &lt 1 DEL  &to 4
@@ -36,7 +36,7 @@
        &none         &kp F1  &kp F2    &kp F3    &kp F4     &kp F5         &kp F6       &kp F7  &kp F8  &kp F9  &kp F10    &kp F11
 &to 0  &none         &none   &kp HOME  &kp UP    &kp PG_UP  &none          &kp FSLH     &kp N7  &kp N8  &kp N9  &kp MINUS  &kp F12  &to 0
        &kp LEFT_ALT  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none          &kp STAR     &kp N4  &kp N5  &kp N6  &kp PLUS   &none
-       &kp LCTRL     &none   &kp END   &none     &kp PG_DN  &none          &none        &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
+       &kp LCTRL     &none   &kp END   &none     &kp PG_DN  &kp COMMA      &kp PERIOD   &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
                              &none     &trans    &trans     &lt 3 ENTER    &lt 3 ENTER  &trans  &trans  &to 4
             >;
         };
