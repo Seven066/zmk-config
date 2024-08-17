@@ -37,7 +37,7 @@
 &to 0  &none         &none   &kp HOME  &kp UP    &kp PG_UP  &none          &kp FSLH     &kp N7  &kp N8  &kp N9  &kp MINUS  &kp F12  &to 0
        &kp LEFT_ALT  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none          &kp STAR     &kp N4  &kp N5  &kp N6  &kp PLUS   &none
        &kp LCTRL     &none   &kp END   &none     &kp PG_DN  &none          &none        &kp N1  &kp N2  &kp N3  &kp EQUAL  &none
-                             &none     &trans    &trans     &lt 3 ENTER    &lt 3 ENTER  &trans  &trans  &none
+                             &none     &trans    &trans     &lt 3 ENTER    &lt 3 ENTER  &trans  &trans  &to 4
             >;
         };
 
@@ -47,7 +47,7 @@
 &to 0  &none  &none   &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &none     &none   &kp LBKT        &kp LS(UNDERSCORE)  &kp RBKT         &none    &kp F12  &to 0
        &none  &none   &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &none     &none   &kp LEFT_BRACE  &kp SEMI            &kp RIGHT_BRACE  &none    &none
        &none  &none   &kp STAR              &kp COLON  &kp SEMI               &none     &none   &kp PIPE        &kp TILDE           &kp DOLLAR       &none    &none
-                      &none                 &lt 3 TAB  &trans                 &trans    &trans  &trans          &lt 3 DELETE        &none
+                      &none                 &lt 3 TAB  &trans                 &trans    &trans  &trans          &lt 3 DELETE        &to 4
             >;
         };
 
@@ -63,11 +63,11 @@
 
         GAMING_LAYER {
             bindings = <
-       &kp ESC    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5    &none  &none      &none     &none      &none  &none
-&none  &kp CAPS   &kp Q   &kp W     &kp E     &kp R      &kp T     &none  &none      &kp UP    &none      &none  &none  &to 0
-       &kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G     &none  &kp LEFT   &kp DOWN  &kp RIGHT  &none  &to 1
-       &kp LCTRL  &kp Z   &kp X     &kp C     &kp V      &kp B     &none  &none      &none     &none      &none  &to 2
-                          &kp LGUI  &kp LALT  &kp SPACE  &none     &none  &kp SPACE  &none     &none
+       &kp ESC    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5          &none  &none      &none     &none      &none  &none
+&none  &kp CAPS   &kp Q   &kp W     &kp E     &kp R      &kp T           &none  &none      &kp UP    &none      &none  &none  &to 0
+       &kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G           &none  &kp LEFT   &kp DOWN  &kp RIGHT  &none  &to 1
+       &kp LCTRL  &kp Z   &kp X     &kp C     &kp V      &kp B           &none  &none      &none     &none      &none  &to 2
+                          &kp LGUI  &kp LALT  &kp SPACE  &kp NUMBER_6    &none  &kp SPACE  &none     &none
             >;
         };
     };
