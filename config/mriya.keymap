@@ -33,11 +33,11 @@
 
         NUM_ARROW {
             bindings = <
-       &none         &kp F1  &kp F2    &kp F3    &kp F4     &kp F5         &kp F6           &kp F7           &kp F8           &kp F9           &kp F10     &kp F11
-&to 0  &none         &none   &kp HOME  &kp UP    &kp PG_UP  &kp INSERT     &kp FSLH         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL   &kp F12         &to 0
-       &kp LEFT_ALT  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE     &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS    &kp MINUS
-       &kp LCTRL     &none   &kp END   &none     &kp PG_DN  &kp COMMA      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp KP_NUMLOCK
-                             &none     &trans    &trans     &lt 3 ENTER    &lt 3 ENTER      &trans           &trans           &to 4
+       &none         &kp F1           &kp F2    &kp F3    &kp F4     &kp F5         &kp F6           &kp F7           &kp F8           &kp F9           &kp F10     &kp F11
+&to 0  &none         &kp PRINTSCREEN  &kp HOME  &kp UP    &kp PG_UP  &kp INSERT     &kp FSLH         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL   &kp F12         &to 0
+       &kp LEFT_ALT  &none            &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE     &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS    &kp MINUS
+       &kp LCTRL     &none            &kp END   &none     &kp PG_DN  &kp COMMA      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp KP_NUMLOCK
+                                      &none     &trans    &trans     &lt 3 ENTER    &lt 3 ENTER      &trans           &trans           &to 4
             >;
         };
 
