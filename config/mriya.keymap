@@ -43,11 +43,11 @@
 
         SYMBOLS {
             bindings = <
-       &none              &kp F1  &kp F2                &kp F3     &kp F4                 &kp F5    &kp F6         &kp F7          &kp F8              &kp F9           &kp F10  &kp F11
-&to 0  &none              &none   &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &none     &none          &kp LBKT        &kp LS(UNDERSCORE)  &kp RBKT         &none    &kp F12  &to 0
-       &kp LEFT_ALT       &none   &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &none     &none          &kp LEFT_BRACE  &kp SEMI            &kp RIGHT_BRACE  &none    &none
-       &kp RIGHT_CONTROL  &none   &kp STAR              &kp COLON  &kp SEMI               &none     &kp BACKSPACE  &kp BACKSLASH   &kp TILDE           &kp SLASH        &none    &none
-                                  &none                 &lt 3 TAB  &trans                 &trans    &trans         &trans          &lt 3 DELETE        &to 4
+       &none              &kp F1  &kp F2                &kp F3        &kp F4                 &kp F5    &kp F6         &kp F7          &kp F8              &kp F9           &kp F10  &kp F11
+&to 0  &none              &none   &kp LESS_THAN         &kp KP_MINUS  &kp GREATER_THAN       &none     &none          &kp LBKT        &kp LS(UNDERSCORE)  &kp RBKT         &none    &kp F12  &to 0
+       &kp LEFT_ALT       &none   &kp LEFT_PARENTHESIS  &kp KP_EQUAL  &kp RIGHT_PARENTHESIS  &none     &none          &kp LEFT_BRACE  &kp SEMI            &kp RIGHT_BRACE  &none    &none
+       &kp RIGHT_CONTROL  &none   &kp STAR              &kp COLON     &kp SEMI               &none     &kp BACKSPACE  &kp BACKSLASH   &kp TILDE           &kp SLASH        &none    &none
+                                  &none                 &lt 3 TAB     &trans                 &trans    &trans         &trans          &lt 3 DELETE        &to 4
             >;
         };
 
