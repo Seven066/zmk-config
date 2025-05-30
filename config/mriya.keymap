@@ -34,21 +34,21 @@
 
         NUM_ARROW {
             bindings = <
-       &none         &kp F1           &kp F2    &kp F3    &kp F4     &kp F5         &kp F6           &kp F7           &kp F8           &kp F9           &kp F10     &kp F11
-&to 0  &none         &kp PRINTSCREEN  &kp HOME  &kp UP    &kp PG_UP  &kp INSERT     &kp FSLH         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL   &kp F12         &to 0
-       &kp LEFT_ALT  &none            &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE     &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS    &kp MINUS
-       &kp LCTRL     &none            &kp END   &none     &kp PG_DN  &kp COMMA      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp KP_NUMLOCK
-                                      &mo 5     &trans    &trans     &lt 3 ENTER    &lt 3 ENTER      &trans           &trans           &mo 5
+       &none         &kp F1           &kp F2    &kp F3    &kp F4     &kp F5          &kp F6           &kp F7           &kp F8           &kp F9           &kp F10     &kp F11
+&to 0  &none         &kp PRINTSCREEN  &kp HOME  &kp UP    &kp PG_UP  &kp INSERT      &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL   &kp F12         &to 0
+       &kp LEFT_ALT  &none            &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE      &kp STAR         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS    &kp MINUS
+       &kp LCTRL     &none            &kp END   &none     &kp PG_DN  &kp KP_COMMA    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp KP_NUMLOCK
+                                      &mo 5     &trans    &trans     &lt 3 ENTER     &lt 3 ENTER      &trans           &trans           &mo 5
             >;
         };
 
         SYMBOLS {
             bindings = <
-       &none              &kp F1  &kp F2                &kp F3        &kp F4                 &kp F5    &kp F6         &kp F7          &kp F8              &kp F9           &kp F10  &kp F11
-&to 0  &none              &none   &kp LESS_THAN         &kp KP_MINUS  &kp GREATER_THAN       &none     &none          &kp LBKT        &kp LS(UNDERSCORE)  &kp RBKT         &none    &kp F12  &to 0
-       &kp LEFT_ALT       &none   &kp LEFT_PARENTHESIS  &kp EQUAL     &kp RIGHT_PARENTHESIS  &none     &none          &kp LEFT_BRACE  &kp SEMI            &kp RIGHT_BRACE  &none    &none
-       &kp RIGHT_CONTROL  &none   &kp STAR              &kp COLON     &kp SEMI               &none     &kp BACKSPACE  &kp BACKSLASH   &kp TILDE           &kp SLASH        &none    &none
-                                  &none                 &lt 3 TAB     &trans                 &trans    &trans         &trans          &lt 3 DELETE        &to 4
+       &none              &kp F1  &kp F2                &kp F3     &kp F4                 &kp F5    &kp F6         &kp F7    &kp F8         &kp F9    &kp F10  &kp F11
+&to 0  &none              &none   &kp LESS_THAN         &kp MINUS  &kp GREATER_THAN       &none     &none          &kp LBKT  &kp UNDER      &kp RBKT  &none    &kp F12  &to 0
+       &kp LEFT_ALT       &none   &kp LEFT_PARENTHESIS  &kp EQUAL  &kp RIGHT_PARENTHESIS  &none     &none          &kp LBRC  &kp SEMI       &kp RBRC  &none    &none
+       &kp RIGHT_CONTROL  &none   &kp STAR              &kp COLON  &kp SEMICOLON          &none     &kp BACKSPACE  &kp BSLH  &kp LS(GRAVE)  &kp FSLH  &none    &none
+                                  &none                 &lt 3 TAB  &trans                 &trans    &trans         &trans    &lt 3 DELETE   &to 4
             >;
         };
 
